@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <div className="flex flex-col w-[98%] mx-auto shadow-black shadow-lg">
             
-          <main className="flex-grow   mb-[100vh] z-[50] bg-gray-100">
+          <main className="flex-grow   mb-[65vh] z-[50] bg-gray-100">
           <Header />
             {children}</main>
          < ScrollToTopButton />
