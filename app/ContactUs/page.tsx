@@ -1,7 +1,6 @@
 
-import { FaPhone, FaFax, FaEnvelope, FaGlobe, FaMapMarkerAlt, FaClock, FaHome } from 'react-icons/fa';
+import { FaPhone, FaFax, FaEnvelope, FaGlobe, FaMapMarkerAlt, FaClock} from 'react-icons/fa';
 import Image from 'next/image';
-import Link from "next/link";
 
 const ContactPage = () => {
   return (
@@ -27,16 +26,7 @@ const ContactPage = () => {
             <div><h1 className="text-4xl font-bold text-white text-center">
               CONTACT US
             </h1></div>
-            <div className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2">
-            <Link href="/" className="flex items-center text-white hover:text-blue-300 transition duration-300">
-  <FaHome className="w-5 h-5" />
-  <span className="ml-2 text-lg text-white">TopTech Security Services</span>
-</Link>
-            </div>
-              <span className="text-white">/</span>
-              <span className="text-white">Contact Us</span>
-            </div>
+            
           </div>
         </div>
 

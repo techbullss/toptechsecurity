@@ -4,7 +4,7 @@ import Image from "next/image"
 import Navbar from './Navbar'
 function Header() {
   return (
-    <div className='flex  flex-col z-[1000]'>
+    <div className='flex  flex-col z[10]'>
         <div className="bg-[rgb(14,181,22)]  py-2 px-4 md:flex  items-center gap-6">
       {/* Left side: Call us text and phone number */}
       <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row items-center space-y-2 sm:space-y-2 md:space-x-2 lg:space-x-2">

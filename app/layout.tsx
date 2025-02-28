@@ -31,8 +31,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-[90%] mx-auto bg-gray-100`} 
       >
         <div className="flex flex-col w-[98%] mx-auto shadow-black shadow-lg">
-            <Header />
-          <main className="flex-grow  md:mb-[45%] z-[50] bg-gray-100">{children}</main>
+            
+          <main className="flex-grow  md:mb-[37%] z-[50] bg-gray-100">
+          <Header />
+            {children}</main>
          < ScrollToTopButton />
           <Footer />
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomeSec1 = () => {
   return (
-    <div className="w-full bg-[rgb(14,181,21)] min-h-[30vh] flex items-center px-6 sm:px-12">
+    <div className="w-full bg-[rgb(14,181,21)] min-h-[20vh] flex items-center px-6 sm:px-12">
     <div className="max-w-screen-xl mx-auto flex flex-col sm:flex-row justify-between items-center w-full">
       {/* Text Section */}
       <p className="text-center sm:text-left text-2xl sm:text-3xl text-gray-100">

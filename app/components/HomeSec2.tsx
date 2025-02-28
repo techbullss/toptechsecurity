@@ -18,7 +18,7 @@ const HomeSec2 = () => {
         "Gates Duties",
       ];
   return (
-    <div className="w-full max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 pt-12 gap-6 md:gap-12 pb-12 px-6">
+    <div className="w-full max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 pt-10 gap-6 md:gap-12 pb-10 px-6">
   {/* Image Section */}
   <div className="flex justify-center">
     <Image 
