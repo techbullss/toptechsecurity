@@ -186,7 +186,7 @@ const ServicesPage = () => {
                   alt={service.title}
                   width={200}
                   height={300}
-                  className=" w-[400px] h-[250px]"
+                  className=" w-[100%] h-[100%]"
                   
                   
                 />
