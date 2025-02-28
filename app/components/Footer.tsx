@@ -5,7 +5,7 @@ import { FaPhone, FaEnvelope, FaGlobe, FaMapMarkerAlt, FaClock } from 'react-ico
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 right-0 left-0 w-[88.2%] mx-auto md:z-0  md:h-[75%] md:fixed md:bottom-0">
+    <footer className="bg-gray-900 text-white py-8 right-0 left-0 w-[88.2%] mx-auto md:z-0  md:h-3/4 lg:3/4 md:fixed md:bottom-0">
       <div className="container  px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Column 1: About Us */}

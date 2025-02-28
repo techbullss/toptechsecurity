@@ -32,7 +32,7 @@ return ()=>{
   
   return (
     <div 
-    className={`  bg-[rgb(221,153,51)]  justify-center  
+    className={`  bg-[rgb(221,153,51)]    
       ${navBgs ? 'fixed bg-gray-100 top-0 rounded-sm left-0 right-0 w-[90%] mx-auto z-[1000] shadow-md h-[12vh] ' : ''} 
      md:h-[10vh] lg:h-[10vh] sm:h-[8vh]  `}
   >
