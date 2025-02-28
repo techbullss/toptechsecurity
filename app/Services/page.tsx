@@ -184,9 +184,9 @@ const ServicesPage = () => {
                 <Image
                   src={service.image}
                   alt={service.title}
-                  width={400}
-                  height={400}
-                  className=" w-[400px] h-[200px]"
+                  width={200}
+                  height={300}
+                  className=" w-[400px] h-[250px]"
                   
                   
                 />
