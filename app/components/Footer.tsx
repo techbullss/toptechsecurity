@@ -5,7 +5,7 @@ import { FaPhone, FaEnvelope, FaGlobe, FaMapMarkerAlt, FaClock } from 'react-ico
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 right-0 left-0 w-[88.2%] mx-auto md:z-0  md:h-3/4 lg:3/4 md:fixed md:bottom-0">
+    <footer className="bg-gray-900 text-white py-8 right-0 left-0 w-[88.2%] mx-auto md:z-0  md:h-2/3 lg:2/3 md:fixed md:bottom-0">
       <div className="container  px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Column 1: About Us */}
@@ -119,11 +119,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t flex  border-gray-800   text-center">
-          <div className="pt-8 px-12 flex items-end"><p className=" text-lg text-gray-400">
+        <div className="border-t flex w-[70%] mx-auto border-gray-800   text-center">
+          <div className=" mb-8 pt-2 px-12 flex items-end"><p className=" text-sm text-gray-400">
             &copy; {new Date().getFullYear()} TopTech Security. All rights reserved.
           </p>
-          <p className='text-gray-400 px-2 text-lg' > Company Reg. Number: 7537218 | VAT Number: 194412700</p></div>
+          <p className='text-gray-400 px-2 text-sm' > Company Reg. Number: 7537218 | VAT Number: 194412700</p></div>
           
         </div>
       </div>
