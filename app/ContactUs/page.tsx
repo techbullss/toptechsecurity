@@ -35,9 +35,9 @@ const ContactPage = () => {
           {/* Left Side: Google Map */}
           <div className="w-full px-6 h-[100%] pb-8 rounded-lg overflow-hidden order-1 md:col-span-2">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.540423904384!2d-0.127758384229427!3d51.50735097963448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c38c8cd1d9%3A0xb78f2474b9a45aa9!2sBig%20Ben!5e0!3m2!1sen!2suk!4v1633012345678!5m2!1sen!2suk"
-              width="100%"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.8353845476836!2d0.022932976622791954!3d51.55291747182365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7a196e2d0c1%3A0xa97c5a10e791c44e!2s2000%2016%2C%2018%20Woodford%20Rd%2C%20London%20E7%200HA%2C%20UK!5e0!3m2!1sen!2ske!4v1742541413667!5m2!1sen!2ske" 
               height="100%"
+              width="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"

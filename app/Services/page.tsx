@@ -239,7 +239,7 @@ const ServicesPage = () => {
   )}
 </div>
 <div className='pb-12 px-8 pt-8 text-center'>
-        <button className='bg-green-400  rounded-full font-bold border-slate-950 border-2 pt-4 py-2 px-5 hover:text-black'><Link href="ContactUs">Contact Us</Link></button>
+        <button className='bg-green-400  rounded-full font-bold border-slate-950 border-2 pt-4 py-2 px-5 hover:text-black'><Link href="/ContactUs">Contact Us</Link></button>
 
         </div>
             <button

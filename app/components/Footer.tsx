@@ -38,17 +38,17 @@ const Footer = () => {
     </Link>
   </li>
   <li className="relative border-b border-gray-600 pb-2 before:content-['>'] before:text-green-500 before:absolute before:-left-6">
-    <Link href="AboutUs" className="text-xl text-gray-400 hover:text-white transition duration-300">
+    <Link href="/AboutUs" className="text-xl text-gray-400 hover:text-white transition duration-300">
       About Us
     </Link>
   </li>
   <li className="relative border-b border-gray-600 pb-2 before:content-['>'] before:text-green-500 before:absolute before:-left-5">
-    <Link href="Services" className="text-xl text-gray-400 hover:text-white transition duration-300">
+    <Link href="/Services" className="text-xl text-gray-400 hover:text-white transition duration-300">
       Services
     </Link>
   </li>
   <li className="relative border-b border-gray-600 pb-2 before:content-['>'] before:text-green-500 before:absolute before:-left-5">
-    <Link href="ContactUs" className="text-xl text-gray-400 hover:text-white transition duration-300">
+    <Link href="/ContactUs" className="text-xl text-gray-400 hover:text-white transition duration-300">
       Contact Us
     </Link>
   </li>
